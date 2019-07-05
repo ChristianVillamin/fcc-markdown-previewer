@@ -54,4 +54,7 @@ const MarkdownPreviewer = () => {
 };
 
 marked.setOptions({ breaks: true });
-ReactDOM.render(<MarkdownPreviewer />, document.getElementById('root'));
+ReactDOM.render(
+  <MarkdownPreviewer />,
+  document.getElementById('markdown-previewer')
+);
